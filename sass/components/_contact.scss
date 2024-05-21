@@ -1,0 +1,61 @@
+#contact {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contact__form {
+      color: $primary-color;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      h1 {
+        font-weight: 700;
+        font-size: 3.125rem;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.25rem;
+      }
+      .contact__fields {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        height: 80px;
+        gap: 20px;
+        input {
+          font-family: Ubuntu;
+          color: $primary-color;
+          border-radius: 10px;
+          border: 1px solid $border-color;
+          padding-left: 30px;
+          padding-right: 20px;
+          font-size: 1.25rem;
+          transition: 0.4s;
+          &:focus {
+            outline-color: $primary-color;
+            border-color: transparent;
+          }
+        }
+        button {
+          background-color: $primary-color;
+          color: $white-color;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          font-family: Ubuntu;
+          font-size: 1.25rem;
+          transition: 0.4s;
+          &:hover {
+            transform: scale(0.95);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .detail__container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    .detail__top {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+      color: $primary-color;
+      h1 {
+        font-weight: 700;
+        font-size: 3.125rem;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.25rem;
+      }
+    }
+    .detail__bottom {
+      margin-top: -75px;
+      z-index: -1;
+    }
+  }
+}

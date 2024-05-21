@@ -1,0 +1,95 @@
+#accessories {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .accessories__container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .accessories__top {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+      color: $primary-color;
+      h1 {
+        font-weight: 700;
+        font-size: 3.125rem;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.25rem;
+      }
+    }
+    .accessories__bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      .accessories__row-1 {
+        display: flex;
+        justify-content: space-around;
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          h1 {
+            font-weight: 700;
+            font-size: 3.125rem;
+            color: $primary-color;
+            margin-bottom: 30px;
+          }
+          li {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+        }
+      }
+      .accessories__row-2 {
+        display: flex;
+        justify-content: space-around;
+        img {
+          object-fit: contain;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          h1 {
+            margin-bottom: 30px;
+            font-size: 3.125rem;
+            color: $primary-color;
+            font-weight: 700;
+          }
+          li {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+          }
+        }
+      }
+      .accessories__button {
+        cursor: pointer;
+        padding: 20px;
+        font-family: Ubuntu;
+        font-weight: 700;
+        font-size: 30px;
+        color: $primary-color;
+        width: fit-content;
+        display: flex;
+        align-self: center;
+        border-radius: 10px;
+        border: 2px solid $primary-color;
+        background-color: transparent;
+        transition: 0.4s;
+        &:hover {
+          transform: scale(0.95);
+          background-color: $primary-color;
+          color: $white-color;
+        }
+      }
+    }
+  }
+}

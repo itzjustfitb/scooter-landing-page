@@ -1,0 +1,21 @@
+// TODO ---------- ABSTRACTS ----------
+@import "./sass/abstracts/colors";
+
+// TODO ---------- BASE ----------
+@import "./sass/base/reset";
+@import "./sass/base/typograpghy";
+
+// TODO ---------- COMPONENTS ----------
+@import "./sass/components/hero";
+@import "./sass/components/features";
+@import "./sass/components/info";
+@import "./sass/components/detail";
+@import "./sass/components/accessories";
+@import "./sass/components/gallery";
+@import "./sass/components/colors";
+@import "./sass/components/testimonials";
+@import "./sass/components/contact";
+
+// TODO ---------- LAYOUT ----------
+@import "./sass/layout/footer";
+@import "./sass/layout/header";

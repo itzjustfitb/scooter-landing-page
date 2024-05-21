@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scooter Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__container">
+        <img src="./assets/images/site-logo.png" alt="Site Logo" />
+        <nav class="header__navigation">
+          <ul>
+            <li>
+              PRODUCTS
+              <i class="ri-arrow-down-s-line"></i>
+            </li>
+
+            <li>
+              <a href="#"> GALLERY </a>
+            </li>
+            <li>
+              <a href="#"> CONTACT </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <button>LOGIN</button>
+          <button>SIGN UP</button>
+        </div>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="hero__container">
+        <div class="hero__left">
+          <h1>
+            LET'S RIDE
+            <span>THE FUTURE.</span>
+          </h1>
+          <span class="hero__left-divider"></span>
+          <div class="hero__content">
+            <p class="hero__desc">
+              Simple and sleek design with users in mind.
+            </p>
+            <div class="hero__buttons">
+              <div class="hero__buy-now">
+                <i class="ri-arrow-right-line"></i>
+                <a href="#">Buy now</a>
+              </div>
+              <div class="hero__watch">
+                <p>Watch our video how it works</p>
+
+                <div>
+                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      id="circlePath"
+                      fill="none"
+                      stroke-width="4"
+                      stroke="hsl(0 100% 50% / 0.5)"
+                      d="
+            M 10, 50
+            a 40,40 0 1,1 80,0
+            a 40,40 0 1,1 -80,0
+          "
+                    />
+                    <text
+                      id="text"
+                      font-family="monospace"
+                      font-size="10"
+                      font-weight="bold"
+                      fill="var(--text-1)"
+                    >
+                      <textPath id="textPath" href="#circlePath">
+                        HOW IT WORKSSEE
+                      </textPath>
+                    </text>
+                  </svg>
+                  <i class="ri-play-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right">
+          <div class="hero__right-overlay"></div>
+          <img src="./assets/images/scooter.png" alt="Scooter" />
+          <div class="hero__right-slider">
+            <p class="hero__right-slider-count">01</p>
+            <div class="hero__right-slider-btns">
+              <button>
+                <i class="ri-arrow-left-s-line"></i>
+              </button>
+              <button>
+                <i class="ri-arrow-right-s-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="features__container"></div>
+    </section>
+    <section id="info">
+      <div class="info__container">
+        <div class="info__top">
+          <h1>Product Information</h1>
+          <p>
+            Our Scooter has following unique design and technology features:
+          </p>
+        </div>
+        <div class="info__bottom">
+          <div class="info__bottom-left">
+            <img src="./assets/images/scooter-info.png" alt="Scooter" />
+          </div>
+          <div class="info__bottom-right">
+            <ul class="info__bottom-right-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="detail">
+      <div class="detail__container">
+        <div class="detail__top">
+          <h1>High Efficiency Motor</h1>
+          <p>
+            More torque for powerful riding with 22% maximum hill climbing
+            capability.
+          </p>
+        </div>
+        <div class="detail__bottom">
+          <img src="./assets/images/detail.png" alt="Scooter Detail" />
+        </div>
+      </div>
+    </section>
+    <section id="accessories">
+      <div class="accessories__container">
+        <div class="accessories__top">
+          <h1>Multiple Accessories</h1>
+          <p>
+            There are multiple modes for the scooter for your multiple needs.
+          </p>
+        </div>
+        <div class="accessories__bottom">
+          <div class="accessories__row-1">
+            <ul class="accessories__list">
+              <h1>Golf Bag Rock</h1>
+            </ul>
+            <img
+              src="./assets/images/accessories-image-1.png"
+              alt="Accessories Image 1"
+            />
+            <img
+              src="./assets/images/accessories-image-2.png"
+              alt="Accessories Image 2"
+            />
+          </div>
+          <div class="accessories__row-2">
+            <img
+              src="./assets/images/accessories-image-4.png"
+              alt="Accessories Image 4"
+            />
+            <img
+              src="./assets/images/accessories-image-3.png"
+              alt="Accessories Image 3"
+            />
+            <ul class="accessories__list">
+              <h1>Shopping Rack</h1>
+            </ul>
+          </div>
+          <button class="accessories__button">
+            More Accessories Coming Soon
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="gallery__container">
+        <div class="gallery__top">
+          <h1>Gallery</h1>
+          <p>
+            View gallery of our products and make yourself satisfied with our
+            creation.
+          </p>
+        </div>
+        <div class="gallery__bottom">
+          <div class="gallery__row">
+            <div class="gallery__image">
+              <h1>Scooter</h1>
+              <img src="./assets/images/gallery-image-3.png" alt="Gallery" />
+            </div>
+            <div class="gallery__buttons">
+              <button>Battery Images</button>
+              <button>Spare Parts Images</button>
+              <button>Charging Cable Images</button>
+            </div>
+          </div>
+          <div class="gallery__row">
+            <div class="gallery__image">
+              <h1>Built Quality</h1>
+              <img src="./assets/images/gallery-image-2.png" alt="Gallery" />
+            </div>
+            <div class="gallery__image">
+              <h1>Parts</h1>
+              <img src="./assets/images/gallery-image-1.png" alt="Gallery" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="colors">
+      <div class="colors__container">
+        <div class="colors__top">
+          <h1>Colors</h1>
+          <p>Checkout our products colors.</p>
+        </div>
+        <div class="colors__bottom">
+          <img src="./assets/images/colors-image-1.png" alt="Colors Image" />
+          <div class="colors__list">
+            <img src="./assets/images/1.png" alt="" />
+            <img src="./assets/images/2.png" alt="" />
+            <img src="./assets/images/3.png" alt="" />
+            <img src="./assets/images/4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <div class="testimonials__container">
+        <div class="testimonials__top">Testimonials</div>
+        <div class="testimonials__bottom">
+          <div class="testimonial__cards">
+            <div class="testimonial">
+              <div class="testimonial__rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <p>
+                On the other hand, we denounce with righteous indignation and
+                dislike men who are so beguiled and demoralized by the charms of
+                pleasure.
+              </p>
+              <div class="testimonial__profile">
+                <img
+                  src="./assets/images/testimonial-image-1.png"
+                  alt="Image 1"
+                />
+                <div>
+                  <h1>Serhiy Hipskyy</h1>
+                  <p>CEO Universal</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial__rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <p>
+                On the other hand, we denounce with righteous indignation and
+                dislike men who are so beguiled and demoralized by the charms of
+                pleasure.
+              </p>
+              <div class="testimonial__profile">
+                <img
+                  src="./assets/images/testimonial-image-1.png"
+                  alt="Image 1"
+                />
+                <div>
+                  <h1>Serhiy Hipskyy</h1>
+                  <p>CEO Universal</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial__rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <p>
+                On the other hand, we denounce with righteous indignation and
+                dislike men who are so beguiled and demoralized by the charms of
+                pleasure.
+              </p>
+              <div class="testimonial__profile">
+                <img
+                  src="./assets/images/testimonial-image-1.png"
+                  alt="Image 1"
+                />
+                <div>
+                  <h1>Serhiy Hipskyy</h1>
+                  <p>CEO Universal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial__buttons">
+            <button><i class="ri-arrow-left-line"></i></button>
+            <button><i class="ri-arrow-right-line"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact__container">
+        <form class="contact__form">
+          <h1>Subscribe To Newsletter</h1>
+          <p>Subscribe to our newsletter to get amazing offers in future.</p>
+          <div class="contact__fields">
+            <input type="text" placeholder="Enter your email." />
+            <button>Get start</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__left">
+            <img src="./assets/images/footer-scooter.png" alt="" />
+          </div>
+          <div class="footer__right">
+            <div class="footer__navigations">
+              <ul>
+                <h1>About</h1>
+                <li>Company</li>
+                <li>Teams</li>
+                <li>Profile</li>
+                <li>Careers</li>
+              </ul>
+              <ul>
+                <h1>Resources</h1>
+                <li>Contact</li>
+                <li>Application</li>
+                <li>FQA Features</li>
+              </ul>
+              <ul>
+                <h1>Legals</h1>
+                <li>Copyright Privacy</li>
+                <li>Policy Disclaimer</li>
+                <li>Terms</li>
+                <div class="footer__socials">
+                  <i class="ri-facebook-fill"></i>
+                  <i class="ri-twitter-fill"></i>
+                  <i class="ri-instagram-line"></i>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">© Copyright 2021. All rights reserved.</div>
+      </div>
+    </footer>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
